@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CF499621D501160083EDF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF499521D501160083EDF8 /* AppDelegate.swift */; };
+		95CF499821D501160083EDF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF499721D501160083EDF8 /* ViewController.swift */; };
+		95CF499B21D501160083EDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CF499921D501160083EDF8 /* Main.storyboard */; };
+		95CF499D21D501180083EDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CF499C21D501180083EDF8 /* Assets.xcassets */; };
+		95CF49A021D501180083EDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CF499E21D501180083EDF8 /* LaunchScreen.storyboard */; };
+		95CF49A821DF081B0083EDF8 /* InputShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF49A721DF081B0083EDF8 /* InputShiftViewController.swift */; };
+		95CF49AA21DF08370083EDF8 /* InputKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF49A921DF08370083EDF8 /* InputKeywordViewController.swift */; };
+		95CF49AC21DF08730083EDF8 /* EncryptionShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF49AB21DF08730083EDF8 /* EncryptionShiftViewController.swift */; };
+		95CF49AE21DF088F0083EDF8 /* EncryptionKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF49AD21DF088F0083EDF8 /* EncryptionKeywordViewController.swift */; };
+		95E9E8ED21E2E4A900BECB0C /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E8EC21E2E4A900BECB0C /* Shift.swift */; };
+		95E9E8F021E41DF900BECB0C /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E8EF21E41DF900BECB0C /* Keyword.swift */; };
+		95E9E8F221E41F0300BECB0C /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E8F121E41F0300BECB0C /* General.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95CF499221D501160083EDF8 /* Caesar cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caesar cipher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CF499521D501160083EDF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95CF499721D501160083EDF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95CF499A21D501160083EDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95CF499C21D501180083EDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95CF499F21D501180083EDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95CF49A121D501180083EDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CF49A721DF081B0083EDF8 /* InputShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputShiftViewController.swift; sourceTree = "<group>"; };
+		95CF49A921DF08370083EDF8 /* InputKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputKeywordViewController.swift; sourceTree = "<group>"; };
+		95CF49AB21DF08730083EDF8 /* EncryptionShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionShiftViewController.swift; sourceTree = "<group>"; };
+		95CF49AD21DF088F0083EDF8 /* EncryptionKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionKeywordViewController.swift; sourceTree = "<group>"; };
+		95E9E8EC21E2E4A900BECB0C /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		95E9E8EF21E41DF900BECB0C /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		95E9E8F121E41F0300BECB0C /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CF498F21D501160083EDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CF498921D501160083EDF8 = {
+			isa = PBXGroup;
+			children = (
+				95CF499421D501160083EDF8 /* Caesar cipher */,
+				95CF499321D501160083EDF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CF499321D501160083EDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CF499221D501160083EDF8 /* Caesar cipher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CF499421D501160083EDF8 /* Caesar cipher */ = {
+			isa = PBXGroup;
+			children = (
+				95CF499521D501160083EDF8 /* AppDelegate.swift */,
+				95CF499721D501160083EDF8 /* ViewController.swift */,
+				95CF499921D501160083EDF8 /* Main.storyboard */,
+				95E9E8EE21E2E7AE00BECB0C /* Implementation */,
+				95CF49AF21DF0A400083EDF8 /* Input */,
+				95CF49B021DF0A510083EDF8 /* Output */,
+				95CF499C21D501180083EDF8 /* Assets.xcassets */,
+				95CF499E21D501180083EDF8 /* LaunchScreen.storyboard */,
+				95CF49A121D501180083EDF8 /* Info.plist */,
+			);
+			path = "Caesar cipher";
+			sourceTree = "<group>";
+		};
+		95CF49AF21DF0A400083EDF8 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				95CF49A721DF081B0083EDF8 /* InputShiftViewController.swift */,
+				95CF49A921DF08370083EDF8 /* InputKeywordViewController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		95CF49B021DF0A510083EDF8 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				95CF49AB21DF08730083EDF8 /* EncryptionShiftViewController.swift */,
+				95CF49AD21DF088F0083EDF8 /* EncryptionKeywordViewController.swift */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		95E9E8EE21E2E7AE00BECB0C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				95E9E8F121E41F0300BECB0C /* General.swift */,
+				95E9E8EF21E41DF900BECB0C /* Keyword.swift */,
+				95E9E8EC21E2E4A900BECB0C /* Shift.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CF499121D501160083EDF8 /* Caesar cipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CF49A421D501180083EDF8 /* Build configuration list for PBXNativeTarget "Caesar cipher" */;
+			buildPhases = (
+				95CF498E21D501160083EDF8 /* Sources */,
+				95CF498F21D501160083EDF8 /* Frameworks */,
+				95CF499021D501160083EDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caesar cipher";
+			productName = "Caesar cipher";
+			productReference = 95CF499221D501160083EDF8 /* Caesar cipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CF498A21D501160083EDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = " Alexander";
+				TargetAttributes = {
+					95CF499121D501160083EDF8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 95CF498D21D501160083EDF8 /* Build configuration list for PBXProject "Caesar cipher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CF498921D501160083EDF8;
+			productRefGroup = 95CF499321D501160083EDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CF499121D501160083EDF8 /* Caesar cipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CF499021D501160083EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CF49A021D501180083EDF8 /* LaunchScreen.storyboard in Resources */,
+				95CF499D21D501180083EDF8 /* Assets.xcassets in Resources */,
+				95CF499B21D501160083EDF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CF498E21D501160083EDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CF499821D501160083EDF8 /* ViewController.swift in Sources */,
+				95E9E8F221E41F0300BECB0C /* General.swift in Sources */,
+				95CF499621D501160083EDF8 /* AppDelegate.swift in Sources */,
+				95CF49AA21DF08370083EDF8 /* InputKeywordViewController.swift in Sources */,
+				95E9E8ED21E2E4A900BECB0C /* Shift.swift in Sources */,
+				95CF49AE21DF088F0083EDF8 /* EncryptionKeywordViewController.swift in Sources */,
+				95E9E8F021E41DF900BECB0C /* Keyword.swift in Sources */,
+				95CF49AC21DF08730083EDF8 /* EncryptionShiftViewController.swift in Sources */,
+				95CF49A821DF081B0083EDF8 /* InputShiftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95CF499921D501160083EDF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CF499A21D501160083EDF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95CF499E21D501180083EDF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CF499F21D501180083EDF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CF49A221D501180083EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95CF49A321D501180083EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CF49A521D501180083EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Caesar cipher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Caesar-cipher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95CF49A621D501180083EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Caesar cipher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Caesar-cipher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CF498D21D501160083EDF8 /* Build configuration list for PBXProject "Caesar cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CF49A221D501180083EDF8 /* Debug */,
+				95CF49A321D501180083EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CF49A421D501180083EDF8 /* Build configuration list for PBXNativeTarget "Caesar cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CF49A521D501180083EDF8 /* Debug */,
+				95CF49A621D501180083EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CF498A21D501160083EDF8 /* Project object */;
+}
